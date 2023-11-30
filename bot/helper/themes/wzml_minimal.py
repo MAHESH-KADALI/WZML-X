@@ -19,7 +19,7 @@ class WZMLStyle:
 <b>Validity:</b> {validity}'''
     # ---------------------
     # async def token_callback(_, query): ---> __main__.py
-    ACTIVATED = '😆 FUEL FILLED 😆
+    ACTIVATED = '😆 FUEL FILLED 😆'
     # ---------------------
     # async def login(_, message): --> __main__.py
     LOGGED_IN = '<b>Already Bot Login In!</b>'
