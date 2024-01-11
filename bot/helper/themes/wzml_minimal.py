@@ -3,13 +3,13 @@ class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
     ST_BN1_NAME = 'Repo'
-    ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
+    ST_BN1_URL = 'https://www.github.com/maheshsirop'
     ST_BN2_NAME = 'Updates'
-    ST_BN2_URL = 'https://t.me/WZML_X'
-    ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
+    ST_BN2_URL = 'https://t.me/hexafreinds'
+    ST_MSG = '''<i>This bot can mirror all your links,files,torrents to Google Drive or any rclone cloud or to telegram or to ddl servers. Use me here https://t.me/+-IhhRN5PECswM2I9</i>
 <b>Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
-    ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own WZML-X Mirror-Leech bot</i>'''
+    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using me here https://t.me/+-IhhRN5PECswM2I9</i>'''
+    ST_UNAUTH = '''<i>You Are not authorized user! Use me here https://t.me/+-IhhRN5PECswM2I9 </i>'''
     OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
     LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
@@ -19,7 +19,7 @@ class WZMLStyle:
 <b>Validity:</b> {validity}'''
     # ---------------------
     # async def token_callback(_, query): ---> __main__.py
-    ACTIVATED = '✅️ Activated ✅'
+    ACTIVATED = '😆 FUEL FILLED 😆'
     # ---------------------
     # async def login(_, message): --> __main__.py
     LOGGED_IN = '<b>Already Bot Login In!</b>'
@@ -136,18 +136,18 @@ class WZMLStyle:
     L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<b><i>{Name}</i></b>\n┃\n'
-    SIZE =                  '┠ <b>Size: </b>{Size}\n'
-    ELAPSE =                '┠ <b>Elapsed: </b>{Time}\n'
-    MODE =                  '┠ <b>Mode: </b>{Mode}\n'
+    NAME =                  '<b><i>{Name}</i></b>\n|\n'
+    SIZE =                  '🤷 <b>Size: </b>{Size}\n'
+    ELAPSE =                '📟 <b>Elapsed: </b>{Time}\n'
+    MODE =                  '☣️ <b>Mode: </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '┠ <b>Total Files: </b>{Files}\n'
-    L_CORRUPTED_FILES =     '┠ <b>Corrupted Files: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>By: </b>{Tag}\n\n'
-    PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
-    L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
-    L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
+    L_TOTAL_FILES =         '☣️ <b>Total Files: </b>{Files}\n'
+    L_CORRUPTED_FILES =     '☣️ <b>Corrupted Files: </b>{Corrupt}\n'
+    L_CC =                  '📤 <b>By: </b>{Tag}\n\n'
+    PM_BOT_MSG =            '📤 <b><i>File(s) have been Sent above</i></b>'
+    L_BOT_MSG =             '<b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
+    L_LL_MSG =              '<b><i>File(s) have been Sent. Access via Links...</i></b>\n'
     
     # ----- MIRROR -------
     M_TYPE =                '┠ <b>Type: </b>{Mimetype}\n'
@@ -176,50 +176,50 @@ class WZMLStyle:
     STATUS_NAME =       '<b><i>{Name}</i></b>'
 
     #####---------PROGRESSIVE STATUS-------
-    BAR =               '\n┃ {Bar}'
-    PROCESSED =         '\n┠ <b>Processed:</b> {Processed}'
-    STATUS =            '\n┠ <b>Status:</b> <a href="{Url}">{Status}</a>'
-    ETA =                                                ' | <b>ETA:</b> {Eta}'
-    SPEED =             '\n┠ <b>Speed:</b> {Speed}'
-    ELAPSED =                                     ' | <b>Elapsed:</b> {Elapsed}'
-    ENGINE =            '\n┠ <b>Engine:</b> {Engine}'
-    STA_MODE =          '\n┠ <b>Mode:</b> {Mode}'
-    SEEDERS =           '\n┠ <b>Seeders:</b> {Seeders} | '
+    BAR =               '\n📥🅓🅞🅦🅝🅛🅞🅐🅓🅘🅝🅖... {Bar}'
+    PROCESSED =         '\n⛓️ <b>Processed:</b> {Processed}'
+    STATUS =            '\n☣️ <b>Status:</b> <a href="{Url}">{Status}</a>'
+    ETA =                                                ' ⏳ <b>ETA:</b> {Eta}'
+    SPEED =             '\n🚀 <b>Speed:</b> {Speed}'
+    ELAPSED =                                     ' 📟 <b>Elapsed:</b> {Elapsed}'
+    ENGINE =            '\n☣️ <b>Engine:</b> {Engine}'
+    STA_MODE =          '\n☣️ <b>Mode:</b> {Mode}'
+    SEEDERS =           '\n☣️ <b>Seeders:</b> {Seeders} ☣️ '
     LEECHERS =                                           '<b>Leechers:</b> {Leechers}'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ <b>Size: </b>{Size}'
-    SEED_SPEED =     '\n┠ <b>Speed: </b> {Speed} | '
+    SEED_SIZE =      '\n☣️ <b>Size: </b>{Size}'
+    SEED_SPEED =     '\n🚀 <b>Speed: </b> {Speed} | '
     UPLOADED =                                     '<b>Uploaded: </b> {Upload}'
     RATIO =          '\n┠ <b>Ratio: </b> {Ratio} | '
     TIME =                                         '<b>Time: </b> {Time}'
     SEED_ENGINE =    '\n┠ <b>Engine:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠ <b>Size: </b>{Size}'
-    NON_ENGINE =     '\n┠ <b>Engine:</b> {Engine}'
+    STATUS_SIZE =    '\n☣️ <b>Size: </b>{Size}'
+    NON_ENGINE =     '\n☣️ <b>Engine:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>User:</b> <code>{User}</code> | '
+    USER =              '\n💥 <b>User:</b> <code>{User}</code> | '
     ID =                                                        '<b>ID:</b> <code>{Id}</code>'
-    BTSEL =          '\n┠ <b>Select:</b> {Btsel}'
-    CANCEL =         '\n┖ {Cancel}\n\n'
+    BTSEL =          '\n☣️ <b>Select:</b> {Btsel}'
+    CANCEL =         '\n🛑 {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = '⌬ <b><i>Bot Stats</i></b>\n'
-    TASKS =  '┠ <b>Tasks:</b> {Tasks}\n'
-    BOT_TASKS = '┠ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
-    Cpu = '┠ <b>CPU:</b> {cpu}% | '
+    FOOTER = '☣️ <b><i>Bot Stats</i></b>\n'
+    TASKS =  '☣️ <b>Tasks:</b> {Tasks}\n'
+    BOT_TASKS = '☣️ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
+    Cpu = '☣️ <b>CPU:</b> {cpu}% | '
     FREE =                      '<b>F:</b> {free} [{free_p}%]'
-    Ram = '\n┠ <b>RAM:</b> {ram}% | '
+    Ram = '\n☣️ <b>RAM:</b> {ram}% | '
     uptime =                     '<b>UPTIME:</b> {uptime}'
-    DL = '\n┖ <b>DL:</b> {DL}/s | '
+    DL = '\n☣️ <b>DL:</b> {DL}/s | '
     UL =                        '<b>UL:</b> {UL}/s'
 
     ###--------BUTTONS-------
-    PREVIOUS = '⫷'
+    PREVIOUS = '👈'
     REFRESH = 'ᴘᴀɢᴇs\n{Page}'
-    NEXT = '⫸'
+    NEXT = '👉'
     # ---------------------
 
     #STOP_DUPLICATE_MSG: ---> clone.py, aria2_listener.py, task_manager.py
